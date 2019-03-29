@@ -55,6 +55,14 @@ func main() {
 			}
 			fmt.Println()
 		}
+
+		fmt.Printf("%s:\t %s Not passed\t %s Three\t %s Four\t %s Five\n",
+			bold("Grades"),
+			notPassed(block),
+			three(block),
+			four(block),
+			five(block),
+		)
 		return nil
 	}
 	err := app.Run(os.Args)
