@@ -12,3 +12,4 @@ mv exams /usr/local/bin
 ```
 exams TDA342
 ```
+![Printscreen](./print.png)
